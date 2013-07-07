@@ -43,14 +43,12 @@ On this install, this file is located in <code>yourwebroot/profiles/myoclonic/th
 
 The branding is at the bottom of the file, starting at line 215. With the branding removed, the edited version should read as shown below:
 
-<code>
        <div id="credits">
        <?php print(date('Y') . ' ');?>
        <?php if (!empty($site_name)):?>
        <?php print $site_name;?><br/>
        <?php endif;?>
        </div>
-</code>
 
 
 Create Two Groups
