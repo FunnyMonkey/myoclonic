@@ -31,6 +31,7 @@ dependencies[] = entityreference
 dependencies[] = entityreference_prepopulate
 dependencies[] = features
 dependencies[] = field_group
+dependencies[] = galleria
 dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = og
