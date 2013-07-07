@@ -47,7 +47,7 @@ function myo_recipe_field_default_field_instances() {
   $field_instances['node-recipe-field_myo_og_group_ref_priv'] = array(
     'bundle' => 'recipe',
     'default_value' => NULL,
-    'default_value_function' => '',
+    'default_value_function' => 'entityreference_prepopulate_field_default_value',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -78,12 +78,17 @@ function myo_recipe_field_default_field_instances() {
             'widget_type' => 'entityreference_autocomplete',
           ),
           'default' => array(
-            'widget_type' => 'options_select',
+            'widget_type' => 'options_buttons',
           ),
           'status' => TRUE,
         ),
         'prepopulate' => array(
-          'status' => 0,
+          'action' => 'none',
+          'action_on_edit' => 0,
+          'fallback' => 'none',
+          'og_context' => 0,
+          'skip_perm' => 0,
+          'status' => 1,
         ),
       ),
       'user_register_form' => FALSE,
