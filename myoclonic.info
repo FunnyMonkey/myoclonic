@@ -49,11 +49,13 @@ dependencies[] = wysiwyg
 
 ; myoclonic dependencies
 dependencies[] = myo_base_config
+dependencies[] = myo_contexts
 dependencies[] = myo_formats
 dependencies[] = myo_galleria
 dependencies[] = myo_group
 dependencies[] = myo_image_styles
 dependencies[] = myo_menus
+dependencies[] = myo_og_perms
 dependencies[] = myo_page
 dependencies[] = myo_pathauto
 dependencies[] = myo_post
