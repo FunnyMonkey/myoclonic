@@ -1,0 +1,13 @@
+name = Roles
+description = Roles used within the site
+core = 7.x
+package = Base
+php = 5.2.4
+version = 7.x-0.1
+project = myo_roles
+dependencies[] = features
+dependencies[] = myo_base_config
+features[features_api][] = api:1
+features[user_role][] = admin
+features[user_role][] = maintainer
+features[user_role][] = member

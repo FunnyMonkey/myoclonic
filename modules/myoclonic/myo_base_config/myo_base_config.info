@@ -1,0 +1,17 @@
+name = Base config
+description = Base site config
+core = 7.x
+package = Base
+version = 7.x-0.1
+project = myo_base_config
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = jquery_update_jquery_admin_version
+features[variable][] = jquery_update_jquery_cdn
+features[variable][] = jquery_update_jquery_version
+features[variable][] = site_frontpage
+features[variable][] = theme_default
+features[variable][] = theme_settings
+features[variable][] = theme_skeletontheme_settings

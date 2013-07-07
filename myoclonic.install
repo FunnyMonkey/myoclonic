@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file
+ * Base installation for Myoclonic
+ */
+
+/**
+ * Implements hook_install().
+ */
+function myoclonic_install() {
+}

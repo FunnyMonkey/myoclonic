@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Base config feature.
+ */
+
+include_once 'myo_base_config.features.inc';

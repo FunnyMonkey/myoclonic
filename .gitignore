@@ -1,0 +1,17 @@
+# modules directories #
+
+modules/contrib
+modules/development
+
+# base themes #
+
+themes/contrib
+
+# libraries #
+
+libraries
+
+.sass-cache/
+.DS_Store
+.DS_Store?
+._*

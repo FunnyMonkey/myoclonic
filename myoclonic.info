@@ -1,0 +1,64 @@
+name = Myoclonic
+description = Myoclonic Install Profile
+version = 7.x-0.1
+core = 7.x
+
+; core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = diff
+dependencies[] = field
+dependencies[] = file
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = search
+dependencies[] = taxonomy
+dependencies[] = text
+
+; contrib
+dependencies[] = context
+dependencies[] = context_og
+dependencies[] = ctools
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = entityreference_prepopulate
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = og
+dependencies[] = og_access
+dependencies[] = og_context
+dependencies[] = og_ui
+dependencies[] = pathauto
+dependencies[] = save_draft
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = uuid
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = wysiwyg
+
+; myoclonic dependencies
+dependencies[] = myo_base_config
+dependencies[] = myo_formats
+dependencies[] = myo_galleria
+dependencies[] = myo_group
+dependencies[] = myo_image_styles
+dependencies[] = myo_menus
+dependencies[] = myo_page
+dependencies[] = myo_pathauto
+dependencies[] = myo_post
+dependencies[] = myo_recipe
+dependencies[] = myo_roles
+dependencies[] = myo_site_perms
+dependencies[] = myo_site_views
+
+files[] = myoclonic.profile
