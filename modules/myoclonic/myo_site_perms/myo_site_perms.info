@@ -15,6 +15,7 @@ dependencies[] = filter
 dependencies[] = galleria
 dependencies[] = image
 dependencies[] = menu
+dependencies[] = myo_formats
 dependencies[] = node
 dependencies[] = og
 dependencies[] = path
