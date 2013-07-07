@@ -14,7 +14,23 @@ looking for something similar to have a starting point.
 Install Instructions
 ====================
 
-TBD
+These instructions assume that you have the latest version of <a href="https://drupal.org/project/drush">Drush</a> on your server, and have set up a database and database user as described in the standard <a href="https://drupal.org/documentation/install/create-database">Drupal install instructions</a>.
+
+These commands should be issued from the command line, and have ONLY been tested with Ubuntu 12.04. They should work with no issue on most current Linux systems, but YMMV.
+
+* drush dl drupal
+* mv drupal-7.22 YOURWEBROOT
+* cd YOURWEBROOT/profiles/
+* <code>git clone git@github.com:FunnyMonkey/myoclonic.git</code>
+* cd myoclonic
+* drush make --no-core --contrib-destination=. myoclonic.make
+* cd ../../sites/default/
+* cp -pr default.settings.php settings.php
+* chmod 777 settings.php 
+* mkdir files
+* sudo chown -R www-data:www-data files
+
+From there, proceed to the install by navigating to your site in your browser.
 
 Post Install Setup
 ==================
