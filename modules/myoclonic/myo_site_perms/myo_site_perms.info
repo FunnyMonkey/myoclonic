@@ -16,6 +16,7 @@ dependencies[] = galleria
 dependencies[] = image
 dependencies[] = menu
 dependencies[] = myo_formats
+dependencies[] = myo_galleria
 dependencies[] = node
 dependencies[] = og
 dependencies[] = path
