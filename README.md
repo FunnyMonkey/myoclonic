@@ -21,7 +21,7 @@ These commands should be issued from the command line, and have ONLY been tested
 * drush dl drupal
 * mv drupal-7.22 YOURWEBROOT
 * cd YOURWEBROOT/profiles/
-* <code>git clone git@github.com:FunnyMonkey/myoclonic.git</code>
+* <code>git clone git@github.com:FunnyMonkey/myoclonic.git</code> - this step requires that you have SSH keys stored on GitHub. You can also <a href="https://github.com/FunnyMonkey/myoclonic/archive/master.zip">download the zip file</a> and move it into the <code>profiles</code> directory.
 * cd myoclonic
 * drush make --no-core --contrib-destination=. myoclonic.make
 * cd ../../sites/default/
