@@ -53,6 +53,8 @@ The branding is contained within line 2. Edit the line to read:
 
 <code>description = Skeleton is a theme.</code>
 
+Save the updated file.
+
 ### Edit the page.tpl.php file
 
 On this install, this file is located in <code>yourwebroot/profiles/myoclonic/themes/contrib/skeletontheme/templates</code>
@@ -66,6 +68,7 @@ The branding is at the bottom of the file, starting at line 215. With the brandi
        <?php endif;?>
        </div>
 
+Save the updated file.
 
 Create Two Groups
 -----------------
