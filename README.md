@@ -77,3 +77,9 @@ Create Users, and assign them into Groups
 
 The site comes with site specific and group specific roles. The roles built into the site make sense for the specifics of my specific use case, but they will likely need to be modified to make sense for other uses. Modify them as needed.
 
+Adjust User Login Settings
+--------------------------
+
+The default settings allow people from the internet to create accounts, with administrator approval. 
+
+These settings can be adjusted at <code>admin/config/people/accounts</code>
