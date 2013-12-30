@@ -1,0 +1,17 @@
+name = Site Contexts
+description = Contexts used within the site
+core = 7.x
+package = General config
+version = 7.x-0.1
+project = myoc_contexts
+dependencies[] = context
+dependencies[] = myoc_recipe
+dependencies[] = myoc_theme_settings
+dependencies[] = search
+dependencies[] = views
+features[context][] = myoc_global
+features[context][] = myoc_node_gallery
+features[context][] = myoc_sidebar_nav
+features[ctools][] = context:context:3
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
