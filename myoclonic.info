@@ -44,7 +44,7 @@ dependencies[] = recipe
 dependencies[] = save_draft
 dependencies[] = strongarm
 dependencies[] = token
-dependencies[] - video_filter
+dependencies[] = video_filter
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_slideshow
