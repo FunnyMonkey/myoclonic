@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Base settings feature.
+ */
+
+include_once 'myoc_base_settings.features.inc';
