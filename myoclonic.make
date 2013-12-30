@@ -3,6 +3,8 @@ api = 2
 defaults[projects][subdir] = contrib
 
 ; Contrib
+projects[bamboo][version] = "1.3"
+projects[bamboo][subdir] = "contrib"
 projects[better_formats][version] = "1.0-beta1"
 projects[context][version] = "3.1"
 projects[context_og][version] = "2.1"
@@ -13,8 +15,6 @@ projects[entityreference][version] = "1.1"
 projects[entityreference_prepopulate][version] = "1.4"
 projects[features][version] = "2.0"
 projects[field_group][version] = "1.3"
-projects[gratis][version] = "1.3"
-projects[gratis][subdir] = "contrib"
 projects[jquery_update][version] = "2.x-dev"
 projects[libraries][version] = "2.x-dev"
 projects[og][version] = "2.4"
