@@ -40,6 +40,7 @@ dependencies[] = og_context
 dependencies[] = og_field_access
 dependencies[] = og_ui
 dependencies[] = pathauto
+dependencies[] = recipe
 dependencies[] = save_draft
 dependencies[] = strongarm
 dependencies[] = token

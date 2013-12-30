@@ -1,4 +1,4 @@
-core = 7.22
+core = 7.24
 api = 2
 defaults[projects][subdir] = contrib
 
