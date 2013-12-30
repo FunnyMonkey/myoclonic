@@ -53,6 +53,15 @@ dependencies[] = wysiwyg
 
 ; myoclonic dependencies
 
+dependencies[] = myoc_base_settings
+dependencies[] = myoc_contexts
+dependencies[] = myoc_group_perms
+dependencies[] = myoc_page
+dependencies[] = myoc_post
+dependencies[] = myoc_recipe
+dependencies[] = myoc_site_perms
+dependencies[] = myoc_site_views
+dependencies[] = myoc_theme_settings
 dependencies[] = myo_group
 
 files[] = myoclonic.profile

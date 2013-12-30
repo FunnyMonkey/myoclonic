@@ -28,8 +28,8 @@ function myoclonic_install_cleanup() {
   // Enable skeletontheme as default
   // variable_set('theme_default', 'mlc');
   // theme_enable(array('zoundation', 'mlc'));
-  variable_set('theme_default', 'skeletontheme');
-  theme_enable(array('skeletontheme', 'seven'));
+  variable_set('theme_default', 'bamboo');
+  theme_enable(array('bamboo', 'seven'));
 
   // Disable bartik
   // theme_disable(array('bartik'));
