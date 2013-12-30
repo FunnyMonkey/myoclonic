@@ -3,7 +3,7 @@ api = 2
 defaults[projects][subdir] = contrib
 
 ; Contrib
-projects[bamboo][version] = "1.3"
+projects[bamboo][version] = "1.6"
 projects[bamboo][subdir] = "contrib"
 projects[better_formats][version] = "1.0-beta1"
 projects[context][version] = "3.1"
