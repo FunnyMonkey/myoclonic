@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Theme settings feature.
+ */
+
+include_once 'myoc_theme_settings.features.inc';
