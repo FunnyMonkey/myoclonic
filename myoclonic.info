@@ -22,6 +22,7 @@ dependencies[] = taxonomy
 dependencies[] = text
 
 ; contrib
+dependencies[] = better_formats
 dependencies[] = context
 dependencies[] = context_og
 dependencies[] = ctools
@@ -31,37 +32,27 @@ dependencies[] = entityreference
 dependencies[] = entityreference_prepopulate
 dependencies[] = features
 dependencies[] = field_group
-dependencies[] = galleria
 dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = og
 dependencies[] = og_access
 dependencies[] = og_context
+dependencies[] = og_field_access
 dependencies[] = og_ui
 dependencies[] = pathauto
 dependencies[] = save_draft
 dependencies[] = strongarm
 dependencies[] = token
-dependencies[] = uuid
+dependencies[] - video_filter
 dependencies[] = views
 dependencies[] = views_bulk_operations
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_slideshow_galleria
 dependencies[] = wysiwyg
 
 ; myoclonic dependencies
-dependencies[] = myo_base_config
-dependencies[] = myo_contexts
-dependencies[] = myo_formats
-dependencies[] = myo_galleria
+
 dependencies[] = myo_group
-dependencies[] = myo_image_styles
-dependencies[] = myo_menus
-dependencies[] = myo_og_perms
-dependencies[] = myo_page
-dependencies[] = myo_pathauto
-dependencies[] = myo_post
-dependencies[] = myo_recipe
-dependencies[] = myo_roles
-dependencies[] = myo_site_perms
-dependencies[] = myo_site_views
 
 files[] = myoclonic.profile
