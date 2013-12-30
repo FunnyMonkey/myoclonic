@@ -9,6 +9,7 @@ dependencies[] = field_group
 dependencies[] = myo_group
 dependencies[] = myoc_site_perms
 dependencies[] = node
+dependencies[] = og
 dependencies[] = og_ui
 dependencies[] = strongarm
 dependencies[] = text
